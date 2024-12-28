@@ -19,10 +19,10 @@ export default function Navbar() {
     <header className="absolute inset-x-0 top-0 z-50 bg-jc7-white">
       <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5 flex items-center">
             <span className="sr-only">JC7 Judo</span>
             {/* Remplacer par le vrai logo */}
-            <div className="h-8 w-auto text-jc7-red font-bold text-xl">JC7 JUDO</div>
+            <div className="text-jc7-red font-bold text-xl md:text-2xl whitespace-nowrap">JC7 JUDO</div>
           </Link>
         </div>
         <div className="flex lg:hidden">
