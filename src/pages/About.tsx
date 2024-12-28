@@ -42,37 +42,19 @@ const values = [
   }
 ];
 
-const team = [
-  {
-    name: "Baba GAYE",
-    role: "Professeur principal",
-    grade: "6ème Dan",
-    qualifications: [
-      "Champion d'Afrique",
-      "Multiple champion du Sénégal",
-      "Ancien membre de l'équipe nationale du Sénégal",
-      "Professeur diplômé d'État (BEES 2ème degré)"
-    ]
-  },
-  {
-    name: "Camara Baba JUNIOR",
-    role: "Assistant professeur",
-    grade: "2ème Dan",
-    qualifications: [
-      "Membre de l'équipe de France de Jujitsu",
-      "Professeur de Judo-Jujitsu"
-    ]
-  },
-  {
-    name: "Supimme BABA",
-    role: "Assistant professeur",
-    grade: "1er Dan",
-    qualifications: [
-      "Professeur de Judo",
-      "Assistant instructeur"
-    ]
-  }
-];
+// const team = [
+
+//   {
+//     name: "Camara Baba JUNIOR",
+//     role: "Assistant professeur",
+//     grade: "2ème Dan",
+//     qualifications: [
+//       "Membre de l'équipe de France de Jujitsu",
+//       "Professeur de Judo-Jujitsu"
+//     ]
+//   }
+
+// ];
 
 export default function About() {
   return (
