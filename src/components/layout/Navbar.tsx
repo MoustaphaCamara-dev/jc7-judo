@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 
 const navigation = [
   { name: 'Accueil', href: '/' },
-  { name: 'À propos', href: '/about' },
-  { name: 'Cours', href: '/courses' },
-  { name: 'Inscription', href: '/registration' },
-  { name: 'Actualités', href: '/news' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'À propos', href: 'about' },
+  { name: 'Cours', href: 'courses' },
+  { name: 'Inscription', href: 'registration' },
+  { name: 'Actualités', href: 'news' },
+  { name: 'Contact', href: 'contact' },
 ];
 
 export default function Navbar() {
